@@ -4,13 +4,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
+
 
                 /*HEADER */
 
 .intestazione{
     line-height: 100px;
     padding: 1px;
+    background-color: white;
 }
 
 .logo{
@@ -19,10 +22,118 @@
     padding-left: 15px;
 }
 
-                .main-title{
-    font-family: 'Lato', sans-serif;
+.main-title{
     display: inline-block;
     vertical-align: middle;
     font-size: 3rem;
 }
+               
                 /*MAIN*/
+
+.backgr{
+    background-color: darkgray;
+}
+
+.container{
+    width: 600px;
+    margin: 15px auto;
+    padding-left: 30px;
+    background-color: white;
+}
+
+.toggle-bar{
+   padding: 10px 0;
+   margin-bottom: 5px;
+   border-bottom: 2px solid rgb(163, 160, 160);
+}
+
+.task1{
+    display: inline-block;
+    padding: 7px 0;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 0.8rem;
+    background-color: rgb(28, 165, 196);
+    border-radius: 7px;
+}
+
+.task2{
+    
+    display: inline-block;
+    padding: 7px 0;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(163, 160, 160);
+    font-size: 0.8rem;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 7px;
+}
+
+                /*LIST*/
+
+.list-tasks{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.list-titles{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.checkmark{
+   display: inline-block;
+   width: 30px;
+   text-align: center;
+   padding: 5px;
+   color: rgb(35, 171, 126); 
+   border: 1px solid rgb(35, 171, 126);
+   border-radius: 50%;
+   margin: 10px 0;
+}
+
+.crossmark{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    color: red; 
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 5px 0;
+ } 
+
+            /*BADGES*/
+
+.badge{
+    font-size: .6rem;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(28, 165, 196);
+}
+
+#violet{
+    background-color: blueviolet;
+}
+
+#green{
+    background-color: rgb(35, 171, 126);
+}
+
+#orange{
+    background-color: orange;
+}
+
+#rose{
+    background-color: rgb(206, 116, 189);
+}
+
+#lightgreen{
+    background-color: rgb(119, 221, 119);
+}
