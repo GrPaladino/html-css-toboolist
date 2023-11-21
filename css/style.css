@@ -1,0 +1,28 @@
+                 /*GENERAL*/
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                /*HEADER */
+
+.intestazione{
+    line-height: 100px;
+    padding: 1px;
+}
+
+.logo{
+    height: 80px;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+                .main-title{
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem;
+}
+                /*MAIN*/
