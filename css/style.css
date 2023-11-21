@@ -1,12 +1,19 @@
                  /*GENERAL*/
 
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
 
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding-left: 30px;
+    background-color: white;
+}
 
                 /*HEADER */
 
@@ -34,20 +41,16 @@
     background-color: darkgray;
 }
 
-.container{
+                /*TOGGLE BAR*/
+
+.toggle-bar{
     width: 600px;
-    margin: 15px auto;
-    padding-left: 30px;
+    padding: 10px 0 10px 30px;
+    margin: 10px auto 2px;
     background-color: white;
 }
 
-.toggle-bar{
-   padding: 10px 0;
-   margin-bottom: 5px;
-   border-bottom: 2px solid rgb(163, 160, 160);
-}
-
-.task1{
+.toggle{
     display: inline-block;
     padding: 7px 0;
     height: 30px;
@@ -56,22 +59,16 @@
     vertical-align: middle;
     color: white;
     font-size: 0.8rem;
-    background-color: rgb(28, 165, 196);
     border-radius: 7px;
 }
 
-.task2{
-    
-    display: inline-block;
-    padding: 7px 0;
-    height: 30px;
-    width: 80px;
-    text-align: center;
-    vertical-align: middle;
+#task1{
+    background-color: rgb(28, 165, 196)
+}
+
+#task2{
     color: rgb(163, 160, 160);
-    font-size: 0.8rem;
     border: 1px solid rgb(163, 160, 160);
-    border-radius: 7px;
 }
 
                 /*LIST*/
@@ -82,11 +79,11 @@
 }
 
 .list-titles{
-    margin-top: 20px;
+    margin-top: 1px;
     margin-bottom: 5px;
 }
 
-.checkmark{
+.mark{
    display: inline-block;
    width: 30px;
    text-align: center;
@@ -97,16 +94,10 @@
    margin: 10px 0;
 }
 
-.crossmark{
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    padding: 5px;
+#cross{
     color: red; 
     border: 1px solid red;
-    border-radius: 50%;
-    margin: 5px 0;
- } 
+}
 
             /*BADGES*/
 
