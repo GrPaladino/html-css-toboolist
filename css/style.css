@@ -9,7 +9,7 @@
 
 
 .container{
-    width: 600px;
+    width: 1000px;
     margin: 0 auto;
     padding-left: 30px;
     background-color: white;
@@ -44,7 +44,7 @@
                 /*TOGGLE BAR*/
 
 .toggle-bar{
-    width: 600px;
+    width: 1000px;
     padding: 10px 0 10px 30px;
     margin: 10px auto 2px;
     background-color: white;
